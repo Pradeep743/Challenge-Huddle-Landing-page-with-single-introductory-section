@@ -1,0 +1,37 @@
+body {
+    background: url('./images/bg-mobile.svg');
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 200%;
+}
+
+
+button {
+    color: hsl(300, 69%, 71%);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+i {
+    transition: all 1ms ease-in-out;
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+@media (min-width: 375px) {
+    body {
+        background: url('./images/bg-desktop.svg');
+        background-color: hsl(257, 40%, 49%);
+    }
+}
